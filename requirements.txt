@@ -1,0 +1,9 @@
+japanize_matplotlib
+keras
+matplotlib
+numpy
+pandas
+requests
+scikit_learn
+slack_bolt
+tensorflow
