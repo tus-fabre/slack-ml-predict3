@@ -80,8 +80,8 @@ def message_predict(ack, command, respond, body, client):
     # 画像ファイルをアップロードする
     channel_id = body.get('channel_id')
     try:
-        client.files_upload(
-            channels=channel_id,
+        client.files_upload_v2(
+            channel=channel_id,
             title="Generated - " + file_name,
             file=file_path,
             initial_comment="結果ファイルを添付します",

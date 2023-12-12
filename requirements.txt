@@ -6,4 +6,4 @@ pandas
 requests
 scikit_learn
 slack_bolt
-tensorflow
+tensorflow==2.14.0
